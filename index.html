@@ -58,9 +58,19 @@
     </section>
     <header>
         <h2>Thanks for stopping by!</h2>
-        <p>Now that you have gotten to know me a bit better, maybe you would consider leaving a comment?</p>
-        <a href="page1.html"><strong>Add a comment</strong></a>
     </header>
+        <p>Now that you have gotten to know me a bit better, maybe you would consider leaving a comment?</p>
+        <section>
+            <form action="page2.html">
+                <label for="username">Username: </label> <br>
+                <input id="username" type="text" name="first-name" placeholder="Desired username.." pattern="[A-Öa-ö]{3}" title="username may only contain letters a-ö and must be at least 3 characters long" required> <br>
+                <label for="e-mail">E-mail: </label> <br>
+                <input id="e-mail" type="email" placeholder="Your e-mail address.." required> <br>
+                <label for="comment">Write your comment here: </label> <br>
+                <textarea placeholder="Write your comment here.." id="comment" name="comment" minlength="10" maxlength="235" cols="30" rows="10"></textarea> <br>
+                <input type="submit" value="Register"> <br>
+            </form>
+        </section>
     </article>
 </Main>
 <aside>
@@ -74,5 +84,8 @@
         Nice! gillar verkligen dina länkar, Vi kanske kan spela tillsammans någon dag?</p>
     </section>
 </aside>
+<footer>
+    <p>&copy; 2017 ALEX SMITH - All Rights Reserved. For questions regarding the page, contact my support team at: AlexSmithsupport@alexmail.alex</p>
+</footer>
 </body>
 </html>
