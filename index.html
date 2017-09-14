@@ -5,11 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-<Header>
+<header>
     <h1>My Portfolio-Page</h1>
-</Header>
-<Main>
-<Article>
+</header>
+<main>
+<article>
     <section>
     <header>
         <h3>Introduction</h3>
@@ -38,11 +38,11 @@
         <h2>Pictures of my interests</h2>
     </header>
     <figure>
-        <img src="Images/penguin-160159_960_720.png" alt="Penguin Chef!">
+        <img src="Images/penguin-160159_960_720.png" alt="Penguin Chef!" title="Pinguin chef">
         <figcaption>This penguin chef represents my Cooking-Skill!</figcaption>
-        <img src="Images/chaplin-1376364_960_720.png" alt="Charlie-Chaplin">
+        <img src="Images/chaplin-1376364_960_720.png" alt="Charlie-Chaplin" title="Chaplin">
         <figcaption>This comedian represents my funny-side ;) heh, LoL!</figcaption>
-        <img src="Images/cs-go-2742869__340.jpg" alt="Counter-Strike: GO">
+        <img src="Images/cs-go-2742869__340.jpg" alt="Counter-Strike: GO" title="CS-GO">
         <figcaption>This picture represents my n00b-Pwning skills.</figcaption>
     </figure>
 </section>
@@ -63,25 +63,29 @@
         <section>
             <form action="page2.html">
                 <label for="username">Username: </label> <br>
-                <input id="username" type="text" name="first-name" placeholder="Desired username.." pattern="[A-Öa-ö]{3}" title="username may only contain letters a-ö and must be at least 3 characters long" required> <br>
+                <input id="username" type="text" name="first-name" placeholder="Desired username.." pattern="A-Öa-ö]{3" title="username may only contain letters a-ö and must be at least 3 characters long" required> <br>
                 <label for="e-mail">E-mail: </label> <br>
                 <input id="e-mail" type="email" placeholder="Your e-mail address.." required> <br>
                 <label for="comment">Write your comment here: </label> <br>
-                <textarea placeholder="Write your comment here.." id="comment" name="comment" minlength="10" maxlength="235" cols="30" rows="10"></textarea> <br>
+                <textarea placeholder="Write your comment here.." id="comment" name="comment" minlength="10" maxlength="235" cols="30" rows="10" required></textarea> <br>
                 <input type="submit" value="Register"> <br>
             </form>
         </section>
     </article>
-</Main>
+</main>
 <aside>
     <section>
         <header>
             <h3>Comments by previous visitors:</h3>
         </header>
+        <section>
         <p><strong><u>Marcus Finnberg wrote: </u></strong> <br>
         Du verkar vara en underbar människa, Lycka till med dina studier! ;)</p>
+        </section>
+        <section>
         <p><strong><u>Christoffer Nygren wrote: </u></strong> <br>
         Nice! gillar verkligen dina länkar, Vi kanske kan spela tillsammans någon dag?</p>
+        </section>
     </section>
 </aside>
 <footer>
