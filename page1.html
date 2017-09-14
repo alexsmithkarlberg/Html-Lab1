@@ -5,6 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-
+<section>
+    <form action="page2.html">
+        <label for="username">Username: </label> <br>
+        <input id="username" type="text" name="first-name" pattern="[A-Öa-ö]{3}" title="username may only contain letters a-ö and must be at least 3 characters long" required> <br>
+        <label for="e-mail">E-mail: </label> <br>
+        <input id="e-mail" type="email" required> <br>
+        <label for="comment">Write your comment here: </label> <br>
+        <textarea  id="comment" name="comment" minlength="10" maxlength="235" cols="30" rows="10"></textarea> <br>
+        <input type="submit" value="Register"> <br>
+    </form>
+</section>
 </body>
+
 </html>
